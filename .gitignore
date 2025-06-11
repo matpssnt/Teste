@@ -1,3 +1,15 @@
-# Ignorar as pastas
+# Ignora as pastas
 env/
 arquivolixo/
+
+# Bloquear o word
+**/ModeloDoc.docx
+
+# Ignorar qualquer arquivo chamado exemplo que seja txt
+**/exemplo*.txt
+
+# Ignorar as variáveis de ambiente
+src/utils/config.properties
+
+# Ignorar arquivos HTML
+**/*.html
